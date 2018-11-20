@@ -12,6 +12,17 @@
 		8441AEBB21A3AC6C000E7620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8441AEB921A3AC6C000E7620 /* Main.storyboard */; };
 		8441AEBD21A3AC6E000E7620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8441AEBC21A3AC6E000E7620 /* Assets.xcassets */; };
 		8441AEC021A3AC6E000E7620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8441AEBE21A3AC6E000E7620 /* LaunchScreen.storyboard */; };
+		8441AEC821A3ACC2000E7620 /* MotorVehicles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8441AEC721A3ACC2000E7620 /* MotorVehicles.storyboard */; };
+		8441AECA21A3ACDA000E7620 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8441AEC921A3ACDA000E7620 /* Login.storyboard */; };
+		8441AECC21A3AD01000E7620 /* GoogleMaps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8441AECB21A3AD01000E7620 /* GoogleMaps.storyboard */; };
+		8441AECE21A3AD56000E7620 /* MusicList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8441AECD21A3AD56000E7620 /* MusicList.storyboard */; };
+		8441AED021A3AD70000E7620 /* Albums.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8441AECF21A3AD70000E7620 /* Albums.storyboard */; };
+		8441AED221A3ADB3000E7620 /* MoreOptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8441AED121A3ADB3000E7620 /* MoreOptions.storyboard */; };
+		8441AED421A3ADD8000E7620 /* CompanyDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8441AED321A3ADD8000E7620 /* CompanyDetails.storyboard */; };
+		8441AED621A3ADF2000E7620 /* ProductInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8441AED521A3ADF2000E7620 /* ProductInformation.storyboard */; };
+		8441AED821A3AE38000E7620 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441AED721A3AE38000E7620 /* Constants.swift */; };
+		8441AEDA21A3B108000E7620 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441AED921A3B108000E7620 /* UIViewController+Utils.swift */; };
+		8441AEDC21A3B465000E7620 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441AEDB21A3B465000E7620 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		8441AEBC21A3AC6E000E7620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8441AEBF21A3AC6E000E7620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8441AEC121A3AC6E000E7620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8441AEC721A3ACC2000E7620 /* MotorVehicles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MotorVehicles.storyboard; sourceTree = "<group>"; };
+		8441AEC921A3ACDA000E7620 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		8441AECB21A3AD01000E7620 /* GoogleMaps.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GoogleMaps.storyboard; sourceTree = "<group>"; };
+		8441AECD21A3AD56000E7620 /* MusicList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MusicList.storyboard; sourceTree = "<group>"; };
+		8441AECF21A3AD70000E7620 /* Albums.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Albums.storyboard; sourceTree = "<group>"; };
+		8441AED121A3ADB3000E7620 /* MoreOptions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MoreOptions.storyboard; sourceTree = "<group>"; };
+		8441AED321A3ADD8000E7620 /* CompanyDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CompanyDetails.storyboard; sourceTree = "<group>"; };
+		8441AED521A3ADF2000E7620 /* ProductInformation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductInformation.storyboard; sourceTree = "<group>"; };
+		8441AED721A3AE38000E7620 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8441AED921A3B108000E7620 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		8441AEDB21A3B465000E7620 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +78,21 @@
 			children = (
 				8441AEB521A3AC6C000E7620 /* AppDelegate.swift */,
 				8441AEB721A3AC6C000E7620 /* ViewController.swift */,
+				8441AED721A3AE38000E7620 /* Constants.swift */,
+				8441AED921A3B108000E7620 /* UIViewController+Utils.swift */,
 				8441AEB921A3AC6C000E7620 /* Main.storyboard */,
+				8441AEC721A3ACC2000E7620 /* MotorVehicles.storyboard */,
+				8441AEC921A3ACDA000E7620 /* Login.storyboard */,
+				8441AECB21A3AD01000E7620 /* GoogleMaps.storyboard */,
+				8441AECD21A3AD56000E7620 /* MusicList.storyboard */,
+				8441AECF21A3AD70000E7620 /* Albums.storyboard */,
+				8441AED121A3ADB3000E7620 /* MoreOptions.storyboard */,
+				8441AED321A3ADD8000E7620 /* CompanyDetails.storyboard */,
+				8441AED521A3ADF2000E7620 /* ProductInformation.storyboard */,
 				8441AEBC21A3AC6E000E7620 /* Assets.xcassets */,
 				8441AEBE21A3AC6E000E7620 /* LaunchScreen.storyboard */,
 				8441AEC121A3AC6E000E7620 /* Info.plist */,
+				8441AEDB21A3B465000E7620 /* LoginViewController.swift */,
 			);
 			path = StoryBoardsAccess;
 			sourceTree = "<group>";
@@ -123,8 +156,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8441AEC021A3AC6E000E7620 /* LaunchScreen.storyboard in Resources */,
+				8441AED421A3ADD8000E7620 /* CompanyDetails.storyboard in Resources */,
+				8441AED221A3ADB3000E7620 /* MoreOptions.storyboard in Resources */,
 				8441AEBD21A3AC6E000E7620 /* Assets.xcassets in Resources */,
 				8441AEBB21A3AC6C000E7620 /* Main.storyboard in Resources */,
+				8441AED621A3ADF2000E7620 /* ProductInformation.storyboard in Resources */,
+				8441AECA21A3ACDA000E7620 /* Login.storyboard in Resources */,
+				8441AED021A3AD70000E7620 /* Albums.storyboard in Resources */,
+				8441AECC21A3AD01000E7620 /* GoogleMaps.storyboard in Resources */,
+				8441AEC821A3ACC2000E7620 /* MotorVehicles.storyboard in Resources */,
+				8441AECE21A3AD56000E7620 /* MusicList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8441AEDA21A3B108000E7620 /* UIViewController+Utils.swift in Sources */,
 				8441AEB821A3AC6C000E7620 /* ViewController.swift in Sources */,
 				8441AEB621A3AC6C000E7620 /* AppDelegate.swift in Sources */,
+				8441AEDC21A3B465000E7620 /* LoginViewController.swift in Sources */,
+				8441AED821A3AE38000E7620 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

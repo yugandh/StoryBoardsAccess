@@ -13,8 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        guard let loginViewController = LoginViewController.instantiateViewController(withIdentifier: LoginViewController.identifier, fromStoryboard: .login) as? LoginViewController else {
+            return
+        }
+        self.navigationController?.pushViewController(loginViewController, animated: true)
     }
-
-
 }
 
